@@ -43,7 +43,7 @@ When I'm writing a note, and I'd like to link it to another note, all I need to 
 
 
 ## Tags  
-I've got four kinds of tags at work in my system:  
+I've got three kinds of tags at work in my system:  
 1. Datetime Stamps  
 2. Type tags, see above  
 3. Project tags  
