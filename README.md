@@ -1,6 +1,6 @@
 # Vim Second Brain  
 
-I wanted to create a repo to describe a method of note taking that combines the best ideas on the subject 
+I wanted to create a repo to describe a method of note taking that combines some of the best ideas on the subject 
 with minimal reliance on third party vendors. The ideas are taken from Tiago Forte's [Building a Second Brain](https://fortelabs.co/blog/basbpodcast/).  
 podcast, and the [Zettelkasten](https://zettelkasten.de) method, particularly as it's implemented in [TheArchive](https://zettelkasten.de/the-archive/).  
 
