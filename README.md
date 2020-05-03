@@ -7,12 +7,15 @@ podcast, and the Zettelkasten method, particularly as it's implemented in TheArc
 The goal of the system is to consolidate all notes in one place, including associated media, such as image files. I use the following directoring structure to organize all of my notes:  
 
 All markdown notes go in: `notes/`  
-
 All image files go in: `notes/media`  
-
 All single file scripts go in: `notes/scripts`  
 
 That's it. To search my notes, I use the [The Silver Searcher](https://github.com/ggreer/the_silver_searcher). For using the Silver Searcher in Vim, see [this article](https://thoughtbot.com/blog/faster-grepping-in-vim).  
+
+The scripts included in this repository are there to speed up note creation. For example, if you want to create a new todo list, you can run `.\new_todo.sh day_plan` and a new file with a link to itself and the
+relevant tags for a todo list (see below for info on tags).  
+
+I've also include a script for pushing notes to a git repository every minute, so that you're always backing up your precious infos.  
 
 ## Types of Notes  
 There are four kinds of notes that I currently 
@@ -102,8 +105,8 @@ Question: What is ImageDataGenerator good for?
 # ImageDataGeneratorAnswer
 #flash_card 20051588547352
 
-data augmentation to extend training examples etc. by shifting, zooming, and flipping image
-data serialized into numpy arrays
+Answer: ImageDataGeneratorAnswer is good for data augmentation to extend training examples etc. by shifting, zooming, and flipping image
+data serialized into numpy arrays.
 
 [[20051588547204_ImageDataGeneratorQuestion.md]]
 [[20051588547352_ImageDataGeneratorAnswer.md]]

@@ -2,8 +2,7 @@
 
 # I run this script from crontab -e
 # Every 30 minutes
-# /Users/phi/Projects/scripts/push_notes.sh
-cd "/Users/phi/Documents/Notes (The Archive)"
+cd "/where_you_keep_your_notes"
 if [[ $(git status -s) != '' ]]; then
      git add . && git ci -m "auto commit `date`"  && git push origin master
 fi
