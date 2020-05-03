@@ -28,7 +28,7 @@ relevant tags for a todo list (see below for info on tags). I alias my scripts l
 I've also include a script for pushing notes to a git repository every minute, so that you're always backing up your precious infos.  
 
 ## Types of Notes  
-There are four kinds of notes that I currently 
+There are three kinds of notes that I currently 
 recognize in my implementation. Each kind of notes receives its own tag:
 
 1. Checklists (#todo)
