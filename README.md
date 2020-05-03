@@ -2,9 +2,12 @@
 
 I wanted to create a repo to describe a method of note taking that combines some of the best ideas on the subject 
 with minimal reliance on third party vendors. The ideas are taken from Tiago Forte's [Building a Second Brain](https://fortelabs.co/blog/basbpodcast/) 
-podcast, and the [Zettelkasten](https://zettelkasten.de) method, particularly as it's implemented in [TheArchive](https://zettelkasten.de/the-archive/).  
+podcast, and the [Zettelkasten](https://zettelkasten.de) method, particularly as it's implemented in [TheArchive](https://zettelkasten.de/the-archive/).
+To get the most out of what I have to say below, I'd recommend spending some time with those resources.  
 
-The goal of the system is to consolidate all notes in one place, including associated media, such as image files. I use the following directoring structure to organize all of my notes:  
+# Oranization 
+
+I use the following directory structure to organize all of my notes:  
 
 All markdown notes go in: `notes/`  
 All image files go in: `notes/media`  
@@ -13,7 +16,14 @@ All single file scripts go in: `notes/scripts`
 That's it. To search my notes, I use the [The Silver Searcher](https://github.com/ggreer/the_silver_searcher). For using the Silver Searcher in Vim, see [this article](https://thoughtbot.com/blog/faster-grepping-in-vim).  
 
 The scripts included in this repository are there to speed up note creation. For example, if you want to create a new todo list, you can run `.\new_todo.sh day_plan` and a new file with a link to itself and the
-relevant tags for a todo list (see below for info on tags).  
+relevant tags for a todo list (see below for info on tags). I alias my scripts like this:  
+
+```
+  alias bbt="new_todo.sh"
+  alias bba="new_article.sh"
+  alias bbf="new_flash_card.sh"
+  alias bbs="new_snippet.sh"
+```
 
 I've also include a script for pushing notes to a git repository every minute, so that you're always backing up your precious infos.  
 
@@ -28,7 +38,8 @@ recognize in my implementation. Each kind of notes receives its own tag:
 
 ## Links Between Notes  
 A core concept of the Zettelkasten method of note taking is that linking notes to each other can faciliate creativity and problem solving. Vim allows you to link to files with the `gf` command. Whenever I write a link, I surround it with square braces so that it stands out.  
-When I'm writing a note, and I'd like to link it to another note, all I need to do is paste the path to the other note in the current note. See the note examples below for how I do this.  
+
+When I'm writing a note, and I'd like to link it to another note, all I need to do is paste the path to the other note in the current note. See the note examples below for how I do this. Whenever I create a new note, I place a link to that note at the bottom of the note, so that I can easily yank the link and pasted it in other notes. 
 
 
 ## Tags  
