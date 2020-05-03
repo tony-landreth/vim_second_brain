@@ -25,7 +25,8 @@ relevant tags for a todo list (see below for info on tags). I alias my scripts l
   alias bbs="new_snippet.sh"
 ```
 
-I've also include a script for pushing notes to a git repository every minute, so that you're always backing up your precious infos.  
+I've also include a script for pushing notes to a git repository every minute, so that you're always backing up your precious infos. I do all of my work on a Mac. For convenience, you can just drop the
+contents of `push_notes.sh` into an Automator task, make it an app, and then run it from `cron`.
 
 ## Types of Notes  
 There are three kinds of notes that I currently 
