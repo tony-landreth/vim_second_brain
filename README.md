@@ -49,7 +49,7 @@ I've got three kinds of tags at work in my system:
 3. Project tags  
 
 I write a project tag like this `#_project` while the project is live. When the project is finished, I write it like this `#!_project`. I use a sloppy bash script to list all of the project tags in my notes 
-directory.
+directory. I don't maintain a ton of project tags, but I will use them for my workouts, e.g. `#_workout`.  
 
 ## Examples  
 
