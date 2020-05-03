@@ -7,10 +7,10 @@ podcast, and the Zettelkasten method, particularly as it's implemented in TheArc
 The goal of the system is to consolidate all notes in one place, including associated media, such as image files. I use the following directoring structure to organize all of my notes:  
 
 notes  
-    |  
-    media  
-    |  
-    scripts  
+....|  
+....media  
+....|  
+....scripts  
 
 That's it. To search my notes, I use the [The Silver Searcher](https://github.com/ggreer/the_silver_searcher). For using the Silver Searcher in Vim, see [this article](https://thoughtbot.com/blog/faster-grepping-in-vim).  
 
