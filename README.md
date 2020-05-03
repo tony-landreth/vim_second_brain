@@ -85,7 +85,8 @@ directory.
 ```
 
 ## Flash Card  
-A flash card is two notes.  
+A flash card is two notes, making it possible to link back and forth between a question and an answer.  
+
 ```
 # ImageDataGenerator
 #flash_card 20051588547204
