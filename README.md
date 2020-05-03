@@ -6,11 +6,11 @@ podcast, and the Zettelkasten method, particularly as it's implemented in TheArc
 
 The goal of the system is to consolidate all notes in one place, including associated media, such as image files. I use the following directoring structure to organize all of my notes:  
 
-notes  
-....|  
-....media  
-....|  
-....scripts  
+All markdown notes go in: `notes/`  
+
+All image files go in: `notes/media`  
+
+All single file scripts go in: `notes/scripts`  
 
 That's it. To search my notes, I use the [The Silver Searcher](https://github.com/ggreer/the_silver_searcher). For using the Silver Searcher in Vim, see [this article](https://thoughtbot.com/blog/faster-grepping-in-vim).  
 
@@ -82,4 +82,28 @@ directory.
   Apparently "Slow is smooth, and smooth is fast" is a Navy SEAL saying. The meaning is pretty clear. Practice slowly so that the correct motor patterns are ingrained. And perhaps equally importantly, execute "slowly", that is to say, don't rush. Pushing your nervous system to perform faster than it's trained to will simply cause you to fumble what you're doing, and the end result is that your rushed performance is slower than if you had attempted a measured cadence in the first place.  
 
   [[202004140825_slow_is_smooth.md]]
+```
+
+## Flash Card  
+A flash card is two notes.  
+```
+# ImageDataGenerator
+#flash_card 20051588547204
+
+Question: What is ImageDataGenerator good for?
+
+[[20051588547352_ImageDataGeneratorAnswer.md]]
+[[20051588547204_ImageDataGeneratorQuestion.md]]
+
+```
+
+```
+# ImageDataGeneratorAnswer
+#flash_card 20051588547352
+
+data augmentation to extend training examples etc. by shifting, zooming, and flipping image
+data serialized into numpy arrays
+
+[[20051588547204_ImageDataGeneratorQuestion.md]]
+[[20051588547352_ImageDataGeneratorAnswer.md]]
 ```
