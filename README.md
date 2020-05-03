@@ -1,7 +1,7 @@
 # Vim Second Brain  
 
 I wanted to create a repo to describe a method of note taking that combines some of the best ideas on the subject 
-with minimal reliance on third party vendors. The ideas are taken from Tiago Forte's [Building a Second Brain](https://fortelabs.co/blog/basbpodcast/).  
+with minimal reliance on third party vendors. The ideas are taken from Tiago Forte's [Building a Second Brain](https://fortelabs.co/blog/basbpodcast/) 
 podcast, and the [Zettelkasten](https://zettelkasten.de) method, particularly as it's implemented in [TheArchive](https://zettelkasten.de/the-archive/).  
 
 The goal of the system is to consolidate all notes in one place, including associated media, such as image files. I use the following directoring structure to organize all of my notes:  
