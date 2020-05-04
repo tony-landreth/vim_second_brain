@@ -5,7 +5,7 @@ with minimal reliance on third party vendors. The ideas are taken from Tiago For
 podcast, and the [Zettelkasten](https://zettelkasten.de) method, particularly as it's implemented in [TheArchive](https://zettelkasten.de/the-archive/).
 To get the most out of what I have to say below, I'd recommend spending some time with those resources.  
 
-# Oranization 
+# Organization 
 
 I use the following directory structure to organize all of my notes:  
 
